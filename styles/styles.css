@@ -208,10 +208,10 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 15rem;
+  padding-right: 8rem;
 }
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 2.2rem;
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
@@ -219,7 +219,7 @@ section {
 .header-content .right-header p {
   margin: 1.5rem, 0;
   line-height: 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .image {
@@ -298,7 +298,7 @@ section {
   padding-right: 5rem;
 }
 .about-container .left-about p {
-  line-height: 2rem;
+  line-height: 1.5rem;
   padding: 1rem;
   color: var(--color-gray-1);
 }
@@ -336,18 +336,18 @@ section {
   flex-direction: column;
 }
 .about-stats .about-me .about-item .abt-text i {
-  font-size: 5rem;
+  font-size: 4.5rem;
   text-align: center;
   padding-bottom: 1.5rem;
   padding-top: 1rem;
 }
 .about-stats .about-me .about-item .abt-text .large-text {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: var(--color-secondary);
 }
 .about-stats .about-me .about-item .abt-text .large-text span {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .about-stats .about-me .about-item .abt-text .small-text {
   padding-left: 3rem;
@@ -413,7 +413,7 @@ section {
   font-size: 1.3rem;
 }
 .timeline .timeline-item span {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--color-white);
 }
 .timeline .timeline-item .tl-duration {
@@ -434,10 +434,11 @@ section {
 .timeline .timeline-item h5 span {
   color: var(--color-gray-2);
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }
 .timeline .timeline-item p {
   color: var(--color-gray-2);
+  font-size: 0.9rem;
 }
 
 .awards {
@@ -483,10 +484,10 @@ section {
 }
 .awards .award .blog-text span {
   color: var(--color-secondary);
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .awards .award .blog-text h4 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 0.7rem;
   transition: var(--transition);
 }
@@ -632,12 +633,13 @@ section {
 }
 .contact-content-container .left-contact h4 {
   margin-top: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 .contact-content-container .left-contact p {
   margin: 1rem 0;
   line-height: 2rem;
+  font-size: 0.9rem;
 }
 .contact-content-container .left-contact .contact-info .contact-item {
   display: flex;
@@ -692,13 +694,14 @@ section {
 }
 .contact-content-container .right-contact .input-control {
   margin: 1.5rem 0;
+  font-size: 0.9rem;
 }
 .contact-content-container .right-contact .input-control input, .contact-content-container .right-contact .input-control textarea {
   border-radius: 30px;
   font-weight: inherit;
   font-size: inherit;
   font-family: inherit;
-  padding: 0.8rem 1.1rem;
+  padding: 0.6rem 0.9rem;
   outline: none;
   border: none;
   background-color: var(--color-gray-5);
@@ -852,23 +855,6 @@ section {
   }
   .section {
     padding: 4rem 11rem;
-  }
-  .contact-content-container {
-    flex-direction: column;
-  }
-  .contact-content-container .right-contact {
-    margin-left: 0;
-    margin-top: 2.5rem;
-  }
-  .contact-content-container .right-contact .i-c-2 {
-    flex-direction: column;
-  }
-  .contact-content-container .right-contact .i-c-2 :last-child {
-    margin-left: 0;
-    margin-top: 1.5rem;
-  }
-  .contact-content-container .left-contact h4 {
-    font-size: 2.5rem !important;
   }
 }
 @media screen and (max-width: 1070px) {
